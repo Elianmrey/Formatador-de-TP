@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  *
+  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  #divfundo
+  {
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(45deg, #140236, #270467, #5400f0, #2825f4);
+  }
+  
+  #titulo
+  {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-family: cursive;
+    font-size:14pt;
+    
+  }
+  
+  span{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #FFF;
+  
+  }
+  
+  #tp-number
+  {
+    margin-left: 10px;
+    height:20px;
+    width: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    border-bottom: 2px groove #ff0059;
+  }
+  #exrcises-number
+  {
+    margin-left: 10px;
+    margin-top: 16px;
+    height:20px;
+    width: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    border-bottom: 2px groove #ff0059;
+  }
+  #materia
+  {
+    margin-left: 10px;
+    margin-top: 16px;
+    height:20px;
+    width: 130px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    border-bottom: 2px groove #ff0059;
+  }
+  #botao
+  {
+    cursor: pointer;
+    margin-top: 15px;
+    width: 60px;
+    height:20px;
+    text-align: center;
+    font-family: cursive;
+    border: 1px groove white;
+    border-radius: 5px;
+    background-color: #8c00ff;
+    color: white;
+  }
+  #botao:hover
+  {
+    cursor: pointer;
+    margin-top: 15px;
+    width: 60px;
+    height:20px;
+    text-align: center;
+    font-family: cursive;
+    border: 1px groove white;
+    border-radius: 5px;
+    background-color: #b263f2;
+    color: #f9daa4;
+    box-shadow: 5px 5px 40px black;              
+    z-index: 2;
+  }
+  #botao:active
+  {
+    cursor: pointer;
+    width: 60px;
+    height:20px;
+    text-align: center;
+    font-family: cursive;
+    border: 1px groove white;
+    border-radius: 5px;
+    background-color: #b263f2;
+    color: white;
+    box-shadow: 5px 5px 40px #5400f0; 
+    z-index: 2;
+  }
+  div#text-area1
+  {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 1px;
+    z-index: 1;
+    resize: none;
+    scroll-behavior: smooth;
+    height:256px;
+    width: 350px;
+    font-size: 14pt;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color: #FFF;
+    overflow-y: scroll;
+    
+  }
