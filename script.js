@@ -8,11 +8,13 @@ const materia = document.getElementById("materia");
 const textArea = document.querySelector("#text-area1");
 
 
-
+  // Limpando o div
+  textArea.innerHTML= "";
 
 for(let numEx = 1; numEx <= exercicesNumber.value; numEx++)
 {
-  
+
+
     //Adicionar concatenação de String na DIV 
      textArea.append( `Exercicio ${tpNumber.value}.${numEx} de ${materia.value}`)
   
